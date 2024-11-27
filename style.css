@@ -1,0 +1,106 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smotthing: antialiased;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+/* #page1{
+    height: 100vh;
+    width : 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+#page2{
+    height: 100vh;
+    width : 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#page2 h1{
+    background-color: yellow; 
+}
+
+#page2 h2{
+    background-color: chartreuse; 
+}
+
+#page3{
+    height: 100vh;
+    width : 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+} */
+body{
+    overflow-x: hidden;
+}
+#page1{
+    height: 100vh;
+    width : 100%;
+    background-color: red;
+}
+
+#page2{
+    height: 100vh;
+    width : 100%;
+    background-color: black;
+}
+
+#page4{
+    height: 100vh;
+    width : 100%;
+    background-color: #3a2106;
+
+}
+
+#page4 img{
+    transform: translateY(250px);
+}
+
+
+#page2 h1{
+    font-size: 20rem;
+    color: #fff;
+    text-transform: uppercase;
+    white-space:nowrap;
+
+
+}
+
+#page3{
+    height: 100vh;
+    width : 100%;
+    background-color: blue;
+}
+
